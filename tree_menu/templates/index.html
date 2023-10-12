@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %} Index Page {% endblock %}
+
+{% load draw_menu %}
+{% block content %}
+<h3>Main_menu</h3>
+{% draw_menu 'Main_menu' %}
+
+<!--
+{% draw_menu 'Info' %}
+-!>
+
+
+{% endblock %}
